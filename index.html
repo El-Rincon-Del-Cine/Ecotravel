@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTravel</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-light">
+    <div class="intro text-center p-4">
+        <div class="bg-success text-light fs-1 p-3">ECOTRAVEL</div><br><br>
+        <p class="bg-dark">
+            En EcoTravel, nuestra misión es conectar a las personas con la naturaleza a través del ecoturismo. 
+            Nos especializamos en ofrecer experiencias únicas y responsables que destacan la belleza natural del mundo, 
+            promoviendo la conservación de ecosistemas y el respeto por las culturas locales. <br><br>
+
+            Nuestro objetivo es inspirar a los viajeros a explorar de manera sostenible, contribuyendo al desarrollo 
+            de comunidades locales y preservando el medio ambiente para las futuras generaciones. Desde majestuosos 
+            parques nacionales hasta reservas naturales, EcoTravel te acompaña a descubrir los destinos más 
+            impresionantes del planeta.
+        </p>
+    </div>
+
+    <div class="container d-flex flex-wrap justify-content-center gap-3 text-dark">
+        <div class="card">
+            <h2>Parque Nacional Torres del Paine, Chile</h2>
+            <img src="img/torres-del-paine.jpg" alt="Torres del Paine">
+            <p>Un impresionante paraíso de montañas, glaciares y lagos, perfecto para amantes del senderismo y la naturaleza.</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal1">Ver detalles</a>
+        </div>
+        <div class="card">
+            <h2>Reserva Natural Cabo Blanco, Costa Rica</h2>
+            <img src="img/cabo-blanco.jpg" alt="Cabo Blanco">
+            <p>El primer refugio de vida silvestre de Costa Rica, hogar de bosques tropicales y fauna marina única.</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal2">Ver detalles</a>
+        </div>
+        <div class="card">
+            <h2>Parque Nacional Yasuní, Ecuador</h2>
+            <img src="img/yasuni.jfif" alt="Yasuní">
+            <p>Una de las áreas más biodiversas del planeta, ubicada en plena selva amazónica ecuatoriana.</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal3">Ver detalles</a>
+        </div>
+        <div class="card">
+            <h2>Parque Nacional Kakadu, Australia</h2>
+            <img src="img/kakadu.avif" alt="Kakadu">
+            <p>Un lugar de belleza única con pinturas rupestres aborígenes, humedales y rica fauna australiana.</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal4">Ver detalles</a>
+        </div>
+        <div class="card">
+            <h2>Parque Nacional Kruger, Sudáfrica</h2>
+            <img src="img/kruger.jpg" alt="Kruger">
+            <p>Uno de los mejores destinos de safari en el mundo, hogar de los “Cinco Grandes” y paisajes fascinantes.</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal5">Ver detalles</a>
+        </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Parque Nacional Torres del Paine, Chile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Precio:</strong> $35 por entrada</p>
+                    <p><strong>Flora:</strong> Lengas, coihues y turberas</p>
+                    <p><strong>Fauna:</strong> Guanacos, pumas y cóndores</p>
+                    <p>Un lugar icónico para los amantes del trekking, con paisajes espectaculares de montañas, glaciares y lagos de aguas cristalinas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Reserva Natural Cabo Blanco, Costa Rica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Precio:</strong> $10 por entrada</p>
+                    <p><strong>Flora:</strong> Selva tropical, cactus</p>
+                    <p><strong>Fauna:</strong> Danta, monos araña y aves tropicales</p>
+                    <p>Una de las primeras áreas protegidas en Costa Rica, ideal para explorar bosques, playas y una biodiversidad única.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Parque Nacional Yasuní, Ecuador</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Precio:</strong> $680 tour completo</p>
+                    <p><strong>Flora:</strong> Árboles de ceiba, palmeras y orquídeas</p>
+                    <p><strong>Fauna:</strong> Delfines de río, jaguares y multitud de especies de aves</p>
+                    <p>Considerado el área más biodiversa del planeta, un paraíso para los exploradores y amantes de la naturaleza.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal4Label">Parque Nacional Kakadu, Australia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Precio:</strong> $25 por entrada</p>
+                    <p><strong>Flora:</strong> Eucaliptos, matorrales y juncos</p>
+                    <p><strong>Fauna:</strong> Cocodrilos de agua salada, canguros y aves acuáticas</p>
+                    <p>Famoso por su cultura aborigen, arte rupestre y paisajes únicos que combinan pantanos y escarpes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal5Label">Parque Nacional Kruger, Sudáfrica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Precio:</strong> $25 por entrada</p>
+                    <p><strong>Flora:</strong> Sabana, matorrales y bosques ribereños</p>
+                    <p><strong>Fauna:</strong> Los "Cinco Grandes" y una variedad de antílopes</p>
+                    <p>Una experiencia de safari única en África, hogar de una rica biodiversidad y paisajes espectaculares.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contacto -->
+    <div class="container mt-5">
+        <h2 class="text-center text-dark mb-4">¡Contáctanos!</h2>
+        <form action="mailto:al472780@uaeh.edu.mx" method="post" enctype="text/plain">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control form-control-sm" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control form-control-sm" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control form-control-sm" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+        </form>
+        
+    </div>
+
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+        <p>© 2025 EcoTravel | Todos los derechos reservados.</p>
+        <div>
+            <a href="#" class="text-light mx-2">Facebook</a>
+            <a href="#" class="text-light mx-2">Instagram</a>
+            <a href="#" class="text-light mx-2">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

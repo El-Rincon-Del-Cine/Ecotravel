@@ -1,0 +1,162 @@
+body {
+    background: url(/img/fondo1.jpg) no-repeat fixed;
+
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f9;
+}
+
+.intro p {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33% - 20px); /* 3 cards per row */
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #228B22;
+}
+
+.card img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #228B22;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #006400;
+}
+
+.modal-content {
+    color: black; 
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+.modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.modal-header {
+    background-color: #228B22;
+    color: white;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-header h5 {
+    font-size: 18px;
+}
+
+.modal-body {
+    font-size: 16px;
+    color: #333;
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.modal-footer .btn {
+    background-color: #228B22;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.modal-footer .btn:hover {
+    background-color: #006400;
+}
+
+img {
+   margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+}
+
+.footer-links a {
+    color: #f4f4f9;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #27ae60;
+}
+
+form{
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Responsividad para pantallas entre 720px y 1080px */
+@media (min-width: 720px) and (min-height: 1080px) {
+    body{
+        background: url(/img/fmovil2.jpg) no-repeat fixed;
+        background-size: cover;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .card a {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 24px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    form, .btn {
+        font-size: 25px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+}

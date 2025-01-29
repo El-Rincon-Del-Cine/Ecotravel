@@ -1,0 +1,37 @@
+{
+    "name": "Bienvenido a EcoTravel",
+    "short_name": "EcoTravel",
+    "description": "Empresa dedicada a viajes ecológicos",
+    "lang": "es-MX",
+    "display": "standalone",
+    "background_color":"#ee8e3a",
+    "theme_color":"#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/ic3.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/ic4.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "id": "/index.html",
+    "start_url": "/index.html",
+    "screenshots":[
+        {
+        "src":"img/pc.png",
+        "sizes":"1348x609",
+        "type":"image/png",
+        "form_factor":"wide"
+        },
+        {
+        "src":"img/pc2.png",
+        "sizes":"325x489",
+        "type":"image/png"
+    }
+    ]
+}
