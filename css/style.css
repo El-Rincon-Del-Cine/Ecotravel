@@ -125,42 +125,6 @@ form{
     padding: 20px;
 }
 
-/* Responsividad para pantallas entre 720px y 1080px */
-@media (min-width: 1080px) and (max-height: 2412px) {
-    body{
-        background: url(/img/fmovil2.jpg) no-repeat fixed;
-        background-size: cover;
-    }
-
-    .card {
-        width: auto;
-    }
-
-    .card a {
-        font-size: 28px;
-    }
-
-    p {
-        font-size: 24px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .container {
-        padding: 0 20px;
-    }
-
-    form, .btn {
-        font-size: 25px;
-        margin: 0;
-        padding: 20px;
-    }
-
-    a {
-        font-size: 25px;
-    }
-}
-
 /* Responsividad para pantallas entre 1080px y 2412px */
 @media (max-width: 1080px) and (max-height: 2412px) {
     body{
